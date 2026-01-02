@@ -146,9 +146,6 @@ To add new compression methods:
 2. Add XObject handling to `pdf_writer.py`
 3. Wire into `compress_page()` and `PDFWriter.add_page()`
 
-## License
-
-MIT License - See LICENSE file.
 
 ## Acknowledgments
 
