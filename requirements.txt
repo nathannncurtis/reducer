@@ -1,0 +1,23 @@
+# PDF Optimizer - Required Python packages
+#
+# Install with: pip install -r requirements.txt
+#
+# External dependencies (install separately):
+#   - Ghostscript (gs or gswin64c) - for PDF rasterization
+#   - Tesseract OCR - for text recognition
+#   - jbig2enc (optional) - for JBIG2 compression
+#   - poppler-utils (optional) - for faster PDF rasterization via pdf2image
+
+# Core dependencies
+pikepdf>=8.0.0          # PDF manipulation
+Pillow>=10.0.0          # Image I/O
+numpy>=1.24.0           # Array operations
+opencv-python>=4.8.0    # Image processing
+scipy>=1.11.0           # Signal processing (for morphological ops)
+
+# Optional but recommended
+pdf2image>=1.16.0       # Faster PDF rasterization (requires poppler)
+
+# Development/testing (optional)
+# pytest>=7.0.0
+# pytest-cov>=4.0.0
